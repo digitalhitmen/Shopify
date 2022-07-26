@@ -11,9 +11,11 @@
   }
 }
 {%- endstyle -%}
-<div class="color-{{ section.settings.color_scheme }} gradient page-width">
+<div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding">
-    {{ section.settings.heading }}
+    <div class="page-width">
+      {{ section.settings.heading }}
+    </div>
   </div>
 </div>
 
@@ -52,6 +54,10 @@
             {
               "value": "inverse",
               "label": "t:sections.all.colors.inverse.label"
+            },
+            {
+              "value": "brown",
+              "label": "Brown Background"
             }
           ],
           "default": "background-1",
