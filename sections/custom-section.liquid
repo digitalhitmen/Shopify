@@ -11,9 +11,9 @@
   }
 }
 {%- endstyle -%}
-<div class="color-{{ section.settings.color_scheme }} gradient">
+<div class="color-{{ section.settings.color_scheme }} gradient page-width">
   <div class="section-{{ section.id }}-padding">
-    {{ section.settings.heading }}
+    {{ section.settings.custom_liquid }}
   </div>
 </div>
 
@@ -26,7 +26,7 @@
 		{
           "type": "text",
           "id": "heading",
-          "default": "Enter your text 1",
+          "default": "Enter your text",
 		  "label": "Text"
         },
         {
