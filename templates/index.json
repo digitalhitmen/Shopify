@@ -49,15 +49,6 @@
         "show_text_below": false
       }
     },
-    "1658825136afccbf16": {
-      "type": "custom-section",
-      "settings": {
-        "heading": "Enter your text",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "1658729289e30bed0c": {
       "type": "image-with-text",
       "blocks": {
@@ -276,7 +267,6 @@
   },
   "order": [
     "image_banner",
-    "1658825136afccbf16",
     "1658729289e30bed0c",
     "rich_text",
     "featured_collection",
