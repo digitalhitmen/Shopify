@@ -53,7 +53,7 @@
       "type": "custom-section",
       "settings": {
         "heading": "Enter your text by yourself",
-        "color_scheme": "background-2",
+        "color_scheme": "brown",
         "padding_top": 40,
         "padding_bottom": 52
       }
