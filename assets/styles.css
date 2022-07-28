@@ -2,3 +2,12 @@
     background-color: #964B00;
     /*background-color: red;*/
 }
+.heading-align-left {
+    text-align: left;
+}
+.heading-align-center {
+    text-align: center;
+}
+.heading-align-right {
+    text-align: right;
+}

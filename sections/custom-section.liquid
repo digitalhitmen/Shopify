@@ -14,7 +14,11 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding">
     <div class="page-width">
-      {{ section.settings.heading }}
+      <h2 style="heading-align-{{ section.settings.text_align }}">{{ section.settings.heading }}</h2>
+      <div class="collection-all">
+        {% assign c = collections.all.products %}
+        {% render 'custom-snippets', heading_text: 'All Products' %}
+      </div>
     </div>
   </div>
 </div>
@@ -30,6 +34,26 @@
           "id": "heading",
           "default": "Enter your text by yourself",
 		  "label": "Text"
+        },
+        {
+          "type": "select",
+          "id": "text_align",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "left",
+          "label": "Heading align"
         },
         {
           "type": "select",
