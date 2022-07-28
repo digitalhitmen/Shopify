@@ -1,0 +1,5 @@
+<ul>
+    {% for product in collections.all.products %}
+        <li><a href="{{ product.url}}">{{ product.title}}</a>
+    {% endfor %}
+</ul>
