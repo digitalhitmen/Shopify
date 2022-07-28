@@ -14,7 +14,7 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding">
     <div class="page-width">
-      <h2 class="heading-align-{{ section.settings.text_align }}">{{ section.settings.heading }}</h2>
+      <h2 class="heading-section heading-align-{{ section.settings.text_align }}">{{ section.settings.heading }}</h2>
       <div class="collection-all">
         {% assign c = collections.all.products %}
         {% render 'custom-snippets', heading_text: 'All Products' %}
