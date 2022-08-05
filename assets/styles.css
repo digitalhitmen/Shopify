@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Bubblegum Sans';
+    src: url('BubblegumSans-Regular.eot');
+    src: url('BubblegumSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BubblegumSans-Regular.woff2') format('woff2'),
+        url('BubblegumSans-Regular.woff') format('woff'),
+        url('BubblegumSans-Regular.ttf') format('truetype'),
+        url('BubblegumSans-Regular.svg#BubblegumSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .heading-section {
     margin-top: 0;
     margin-bottom: 20px;
